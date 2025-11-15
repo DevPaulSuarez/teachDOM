@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulacion del DOM</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pagina de Tarjetas Añadibles</h1>
+    </header>
+    <nav>
+      <!-- SI tiene Navegacion barra-->
+    </nav>
+    <main>
+      <section>
+        <h2>Lista de Componentes</h2>
+        <div id="Componente" class="contenidoComponente">
+          <ul id="listaComponentes"></ul>
+        </div>
+        <div id="plantillaTarjeta">
+          <div class="ListaTarjetas">
+            <h3>Componente Editado</h3>
+            <p>Este es el nuevo Contenido del Componente Editado</p>
+            <span>
+              <button class="editarComponente" type="button">Editar</button>
+              <button class="eliminarComponente" type="button">Eliminar</button>
+            </span>
+          </div>
+        </div>
+
+        <button id="agregarComponente" type="button">Agregar Componente</button>
+        <div id="formularioComponente">
+          <span>Titulo:</span>
+          <input type="text" id="tituloInput" name="titulo" />
+          <span>Descripcion:</span>
+          <input type="text" id="descripcionInput" name="descripcion" />
+          <span>
+            <button id="guardarComponente" type="button">Guardar</button>
+            <button id="cancelarComponente" type="button">Cancelar</button>
+          </span>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        © 2025 Mi Página de Manipulacion del DOM. Todos los derechos reservados.
+      </p>
+    </footer>
+    <!-- si tenemos un script -->
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
